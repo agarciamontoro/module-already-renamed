@@ -7,6 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println("running...")
+	fmt.Println("running from module-to-be-renamed...")
 	pack.ExposedFunction()
 }
