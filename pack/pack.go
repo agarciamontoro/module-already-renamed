@@ -3,5 +3,5 @@ package pack
 import "fmt"
 
 func ExposedFunction() {
-	fmt.Println("running from module-already-renamed/pack...")
+	fmt.Println("(module and imports renamed) running from module-already-renamed/pack...")
 }
