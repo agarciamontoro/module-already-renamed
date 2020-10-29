@@ -1,12 +1,12 @@
-
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func ExposedFunction() {
-	fmt.Println("running from module-to-be-renamed...")
-}
+	"github.com/agarciamontoro/module-to-be-renamed/pack"
+)
 
 func main() {
 	fmt.Println("running...")
+	pack.ExposedFunction()
 }
