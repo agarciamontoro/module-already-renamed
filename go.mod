@@ -1,3 +1,3 @@
-module github.com/agarciamontoro/module-to-be-renamed
+module github.com/agarciamontoro/module-already-renamed
 
 go 1.14

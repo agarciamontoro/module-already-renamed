@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/agarciamontoro/module-to-be-renamed/pack"
+	"github.com/agarciamontoro/module-already-renamed/pack"
 )
 
 func main() {
